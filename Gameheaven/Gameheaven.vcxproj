@@ -220,8 +220,16 @@
     <None Include="res\Gameheaven.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-lightbulb-702797.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-next-button-2883482.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-previous-2883445.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-reset-5578838.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.png" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\reset.ico" />
     <Image Include="res\Gameheaven.ico" />
     <Image Include="res\GameheavenDoc.ico" />
+    <Image Include="res\icon1.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
