@@ -166,6 +166,8 @@ protected:
 // 구현입니다.
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnButton331check();
 };
 
 CAboutDlg::CAboutDlg() noexcept : CDialogEx(IDD_ABOUTBOX)
@@ -188,6 +190,7 @@ void CGameheavenApp::OnAppAbout()
 }
 
 // CGameheavenApp 메시지 처리기
+
 
 
 

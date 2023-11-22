@@ -186,6 +186,7 @@
     <ClInclude Include="CDlgBATTLE.h" />
     <ClInclude Include="CDlgMain.h" />
     <ClInclude Include="CDlgNonogram.h" />
+    <ClInclude Include="CDlgSudoku.h" />
     <ClInclude Include="ChildFrm.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Gameheaven.h" />
@@ -200,6 +201,7 @@
     <ClCompile Include="CDlgBATTLE.cpp" />
     <ClCompile Include="CDlgMain.cpp" />
     <ClCompile Include="CDlgNonogram.cpp" />
+    <ClCompile Include="CDlgSudoku.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
     <ClCompile Include="Gameheaven.cpp" />
     <ClCompile Include="GameheavenDoc.cpp" />
@@ -216,6 +218,7 @@
     <ResourceCompile Include="Gameheaven.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cpp.hint" />
     <None Include="res\Gameheaven.rc2" />
   </ItemGroup>
   <ItemGroup>
@@ -227,8 +230,16 @@
     <Image Include="..\..\..\..\OneDrive\바탕 화면\picachu.bmp" />
     <Image Include="..\picachu.png" />
     <Image Include="res\bitmap1.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-lightbulb-702797.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-next-button-2883482.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-previous-2883445.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-reset-5578838.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.ico" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.png" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\reset.ico" />
     <Image Include="res\Gameheaven.ico" />
     <Image Include="res\GameheavenDoc.ico" />
+    <Image Include="res\icon1.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

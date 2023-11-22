@@ -49,6 +49,7 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="CDlgBATTLE.h">
+    <ClInclude Include="CDlgSudoku.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -78,6 +79,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CDlgBATTLE.cpp">
+    <ClCompile Include="CDlgSudoku.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -90,6 +92,7 @@
     <None Include="res\Gameheaven.rc2">
       <Filter>리소스 파일</Filter>
     </None>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\GameheavenDoc.ico">
@@ -123,6 +126,28 @@
       <Filter>리소스 파일</Filter>
     </Image>
     <Image Include="..\..\..\..\OneDrive\바탕 화면\images2.bmp">
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\hint.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\reset.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-lightbulb-702797.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-next-button-2883482.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-previous-2883445.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-reset-5578838.ico">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>
