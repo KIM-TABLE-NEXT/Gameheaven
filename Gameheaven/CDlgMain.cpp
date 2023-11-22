@@ -9,7 +9,9 @@
 #include "MainFrm.h"
 #include "ChildFrm.h"
 #include "GameheavenDoc.h"
+#include "CDlgBATTLE.h"
 #include "CDlgSudoku.h"
+
 
 
 // CDlgMain 대화 상자
@@ -86,5 +88,16 @@ void CDlgMain::OnBnClickedButtonSudoku()
 
 void CDlgMain::OnBnClickedButtonPokemon()
 {
-	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CDlgBATTLE* pBATTLE = new CDlgBATTLE;
+
+	if (pBATTLE->DoModal() == IDOK)		// DoModal()함수는 대화상자를 실행시킨다.
+	{
+		// 인스턴스 얻기
+		CMainFrame* pFrame = (CMainFrame*)AfxGetMainWnd();
+		CChildFrame* pChild = (CChildFrame*)pFrame->GetActiveFrame();
+		CGameheavenDoc* pDoc = (CGameheavenDoc*)pChild->GetActiveDocument();
+
+		UpdateData(TRUE);				// 데이터를 변수에 저장
+		Invalidate();				// 화면 갱신	
+	}
 }

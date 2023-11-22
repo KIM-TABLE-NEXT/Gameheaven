@@ -48,6 +48,7 @@
     <ClInclude Include="CDlgMain.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CDlgBATTLE.h">
     <ClInclude Include="CDlgSudoku.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -77,6 +78,7 @@
     <ClCompile Include="CDlgMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CDlgBATTLE.cpp">
     <ClCompile Include="CDlgSudoku.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -102,6 +104,28 @@
     <Image Include="res\Toolbar.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="..\picachu.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\picachu.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\dragon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\green-hill.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\9041119.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\images.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\images2.bmp">
     <Image Include="res\icon1.ico">
       <Filter>리소스 파일</Filter>
     </Image>

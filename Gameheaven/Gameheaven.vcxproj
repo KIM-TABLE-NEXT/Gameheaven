@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CDlgBATTLE.h" />
     <ClInclude Include="CDlgMain.h" />
     <ClInclude Include="CDlgNonogram.h" />
     <ClInclude Include="CDlgSudoku.h" />
@@ -197,6 +198,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CDlgBATTLE.cpp" />
     <ClCompile Include="CDlgMain.cpp" />
     <ClCompile Include="CDlgNonogram.cpp" />
     <ClCompile Include="CDlgSudoku.cpp" />
@@ -220,6 +222,14 @@
     <None Include="res\Gameheaven.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\9041119.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\dragon.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\green-hill.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\images.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\images2.bmp" />
+    <Image Include="..\..\..\..\OneDrive\바탕 화면\picachu.bmp" />
+    <Image Include="..\picachu.png" />
+    <Image Include="res\bitmap1.bmp" />
     <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-lightbulb-702797.ico" />
     <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-next-button-2883482.ico" />
     <Image Include="..\..\..\..\OneDrive\바탕 화면\맵\free-icon-previous-2883445.ico" />
