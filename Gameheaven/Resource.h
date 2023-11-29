@@ -9,6 +9,8 @@
 #define ID_WINDOW_MANAGER               131
 #define IDD_DIALOG_NONOGRAM             310
 #define IDD_DIALOG_MENU                 313
+#define IDD_DIALOG1                     315
+#define IDD_MINESWEEPER_DIALOG          315
 #define IDC_MFCBUTTON_1                 1007
 #define IDC_BUTTON_MINE                 1008
 #define IDC_BUTTON_NONOGRAM             1009
@@ -43,7 +45,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        315
+#define _APS_NEXT_RESOURCE_VALUE        317
 #define _APS_NEXT_COMMAND_VALUE         32771
 #define _APS_NEXT_CONTROL_VALUE         1009
 #define _APS_NEXT_SYMED_VALUE           310

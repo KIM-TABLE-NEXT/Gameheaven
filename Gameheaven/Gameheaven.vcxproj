@@ -184,6 +184,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CDlgMain.h" />
+    <ClInclude Include="CDlgMINE.h" />
     <ClInclude Include="CDlgNonogram.h" />
     <ClInclude Include="ChildFrm.h" />
     <ClInclude Include="framework.h" />
@@ -197,6 +198,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CDlgMain.cpp" />
+    <ClCompile Include="CDlgMINE.cpp" />
     <ClCompile Include="CDlgNonogram.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
     <ClCompile Include="Gameheaven.cpp" />
